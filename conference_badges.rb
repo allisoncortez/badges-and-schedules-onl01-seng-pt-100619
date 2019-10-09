@@ -16,7 +16,7 @@ end
 # end
 
 # def batch_badge_creator(array)
-#   badge_names = []
+#   badge_names(array) = []
 #   counter = 0
 #   while counter <= badge_names.length
 #   puts "Hello, my name is #{name}."
@@ -25,5 +25,4 @@ end
 #   badge_names
 # end
 
-def batch_badge_creator(array)
 
