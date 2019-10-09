@@ -16,11 +16,12 @@ end
 # end
 
 def batch_badge_creator(array)
+  badge_names = []
   counter = 0
-  array.each do |name|
+  while counter <= badge_names.length
   puts "Hello, my name is #{name}."
-  array(name) += 1
     counter += 1
   end
+  badge_names
 end
 
