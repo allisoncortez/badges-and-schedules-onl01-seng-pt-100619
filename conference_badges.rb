@@ -30,10 +30,8 @@ def assign_rooms(attendee)
 end
 
 def printer
-  badges.each { |name| puts name }
-  assignments.each {|attendee| puts attendee }
-  
-  return printer
+  return badges
+  return assignments
 end
 
 
