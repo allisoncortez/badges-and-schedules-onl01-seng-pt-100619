@@ -30,9 +30,10 @@ def assign_rooms(attendee)
 end
 
 def printer
-  all = []
-  all << assign_rooms(attendee)
-  return all
+  badges.each { |name| puts name }
+  assignments.each {|attendee| puts attendee }
+  
+  return printer
 end
 
 
