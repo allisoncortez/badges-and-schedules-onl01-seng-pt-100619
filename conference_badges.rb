@@ -29,9 +29,11 @@ def assign_rooms(attendee)
   return assignments
 end
 
-# def assign_rooms(speakers)
-#   greet = []
-#   speakers.each_with_index{ |speakers, index| greet << "Hello, #{speakers}! You'll be assigned to room #{index+1}!"}
-#   return greet
-#   end
+array = []
+   #each_with_index: keep track of the index number of the current iteration
+   attendees.each_with_index do |name, index|
+      array << "Hello, #{name}! You'll be assigned to room #{index+1}!" 
+   end
+   array
+end
 
