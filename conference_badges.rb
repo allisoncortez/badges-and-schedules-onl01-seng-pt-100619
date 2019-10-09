@@ -21,6 +21,7 @@ def batch_badge_creator(array)
   array.each do |name|
   puts "Hello, my name is #{name}."
     counter += 1
+    binding.pry
   end
   badge_name
 end
