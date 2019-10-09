@@ -24,7 +24,7 @@ end
 def assign_rooms(attendee)
   assignments= []
   attendee.each_with_index  do |attendee, index|
-  assignments << batch_badge_creator(attendee) + puts "You'll be assigned to room #{index}!"
+  assignments << batch_badge_creator(attendee) + puts " You'll be assigned to room #{index}!"
   end
   return assignments
 end
