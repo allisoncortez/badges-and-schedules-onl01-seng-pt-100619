@@ -23,17 +23,9 @@ end
 
 def assign_rooms(attendee)
   assignments= []
-  attendee.each_with_index  do |attendee, index|
-  assignments << batch_badge_creator(attendee) + puts " You'll be assigned to room #{index}!"
+  attendee.each_with_index  do |name, index|
+  assignments << "Hello, #{name}! You'll be assigned to room #{index+1}!"
   end
   return assignments
-end
-
-array = []
-   #each_with_index: keep track of the index number of the current iteration
-   attendees.each_with_index do |name, index|
-      array << "Hello, #{name}! You'll be assigned to room #{index+1}!" 
-   end
-   array
 end
 
