@@ -22,7 +22,7 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms
-  puts "Hello, #{name}! You'll be assigned to room #{room}!"
+  #puts "Hello, #{name}! You'll be assigned to room #{room}!"
 end
 
 
