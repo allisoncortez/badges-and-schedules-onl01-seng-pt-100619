@@ -5,24 +5,17 @@ def badge_maker(name)
 end
 
 
-# def badge_maker(name)
-#   badge_name = []
-#   counter = 0
-#   while counter <= badge_name.length
-#     puts "Hello, my name is #{name}."
-#     counter += 1
-#   end
-#   badge_name
-# end
-
+# primary_colors = ["Red", "Yellow", "Blue"]
+# primary_colors.each do |color| # do begins a block
+# # the lines between the do/end are the block's body
+# puts "Primary Color #{color} is #{color.length} letters long.
+ 
+ 
+ 
 def batch_badge_creator(array)
-  badge_list = []
-  counter = 0
-  while counter <= array.length
-  puts "Hello, my name is #{name}."
-    counter += 1
-  end
-  badge_list
+  array = [ "Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz" ]
+  array.each do |name|
+    puts "Hello, my name is #{name}."
 end
 
 
