@@ -30,8 +30,9 @@ def assign_rooms(attendee)
 end
 
 def printer
-  return badges
-  return assignments
+  all = []
+  all << assign_rooms(attendee)
+  return all
 end
 
 
