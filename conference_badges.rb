@@ -31,7 +31,7 @@ end
 
 def printer(attendee)
   badges.each { |names| puts names}
-  assignments.each {|room| puts room}
+  assign_rooms(attendee).each {|room| puts room}
 end
 
 
