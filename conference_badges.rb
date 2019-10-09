@@ -17,9 +17,9 @@ end
 
 def batch_badge_creator(array)
   counter = 0
-  array(name).each do |name|
+  array.each do |name|
   puts "Hello, my name is #{name}."
-  
+  array(name) += 1
     counter += 1
   end
 end
