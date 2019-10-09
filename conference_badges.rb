@@ -32,6 +32,8 @@ end
 def printer
   badges.each { |name| puts name }
   assignments.each {|attendee| puts attendee }
+  
+  printer
 end
 
 
