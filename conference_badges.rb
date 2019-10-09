@@ -18,7 +18,7 @@ def batch_badge_creator(array)
     puts "Hello, my name is #{name}."
     counter += 1
   end
-  array
+  batch_badge_creator(array)
 end
 
 
