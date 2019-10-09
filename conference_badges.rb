@@ -5,16 +5,20 @@ def badge_maker(name)
 end
 
  
+# def batch_badge_creator(names)
+#   greetings = [] # initialize greetings as an empty array
+#   names.each do |name| # for each name in the names array
+#     greetings <<  badge_maker(name)# add a greeting for that name
+#   end
+#   return greetings # return the array of all greetings, at the end
+# end
  
- 
-def batch_badge_creator(array)
+def batch_badge_creator(names)
   badges = []
-  counter = 1
-  array.each do |name|
-    puts "Hello, my name is #{name}."
-    counter += 1
+  names.each do |name|
+    badges << badge_maker(name)
   end
-  badges
+  return badges
 end
 
 
